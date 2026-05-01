@@ -59,13 +59,13 @@ void clear() {
 
 // < Loading > //
 void startgame() {
-    cout << "Loading, Please wait [ ";
-    
-    for (int i = 0; i < 10; i++) {
-        wait2();
-        cout << "#";
+    cout << "Loading, please wait! [ " << flush; 
+
+    for (int i = 0; i < 5; i++) {
+        wait1();
+        // Flush after each '#' to update the loading bar in real-time
+        cout << "#" << flush; 
     }
-    cout << " ]\n";
-    wait5();
-    clear();
-}
+    
+    cout << " ]" << endl;
+}   
