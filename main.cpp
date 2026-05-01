@@ -19,9 +19,10 @@ int main() {
     cout << "\n";
     cout << "Console Version of the game, please be weary this is not yet a 2d setup of the game.\n";
     cout << "\n";
-    cout << "<[ Options ]>";
+    cout << "< [ Options ] >\n";
     cout << "\n";
     cout << "1. [ < Play > ]\n";
     cout << "2. [ < Settings > ]\n";
     cout << "3. [ Developer Commands ]\n";
+    cout << "4. [ Debugging Terminal ]\n";
 }

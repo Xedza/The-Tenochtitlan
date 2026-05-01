@@ -65,7 +65,7 @@ void startgame() {
         wait2();
         cout << "#";
     }
-    cout << " ]";
+    cout << " ]\n";
     wait5();
     clear();
 }
